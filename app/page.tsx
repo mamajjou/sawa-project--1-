@@ -17,10 +17,10 @@ export default function Home() {
           number="?"
           title="Was ist SAWA?"
           description="Mit Sawāʾ starten wir ein aufregendes Projekt, das darauf abzielt, Jugendliche und junge Erwachsene in Moscheegemeinden in Köln und Umgebung zu Multiplikator:innen im Kampf gegen Formen der gruppenbezogenen Menschenfeindlichkeit zu machen. Durch eine siebenteilige Workshopreihe werden die Teilnehmer:innen geschult, eine klare Haltung gegen jegliche Form von Diskriminierung einzunehmen und die erlernten Inhalte in ihr Umfeld weiterzutragen. Junge Menschen erfahren in ihrem Alltag und im Netz immer häufiger antimuslimische, antisemitische und weitere Formen von Ressentiments. Wir sind uns dieser und ähnlicher gesellschaftlicher Herausforderungen bewusst und stehen mit Sawāʾ entschieden dagegen! Unsere Vision ist es, Jugendlichen und jungen Erwachsenen Halt zu geben, sie zu stärken und eine inklusivere Zukunft zu gestalten, in der sie gehört, gesehen und empowert werden."
-          image="/images/team.jpg"
+          image="/images/team.png"
           color="blue"
           imagePosition="right"
-          nextColor="teal"
+      
         />
 
         
@@ -34,7 +34,7 @@ export default function Home() {
           image="/images/anti-muslim-racism.png"
           color="purple"
           imagePosition="right"
-          nextColor="teal"
+  
         />
 
         {/* Workshop 2 */}
@@ -48,7 +48,6 @@ export default function Home() {
           image="/images/anti-semitism.png"
           color="teal"
           imagePosition="left"
-          nextColor="amber"
         />
 
         {/* Workshop 3 */}
@@ -62,7 +61,6 @@ export default function Home() {
           image="/images/gender-inequality.png"
           color="amber"
           imagePosition="right"
-          nextColor="rose"
         />
 
         {/* Workshop 4 */}
@@ -76,7 +74,7 @@ export default function Home() {
           image="/images/anti-black-racism.png"
           color="rose"
           imagePosition="left"
-          nextColor="indigo"
+          
         />
 
         {/* Workshop 5 */}
@@ -90,7 +88,7 @@ export default function Home() {
           image="/images/ageism-ableism.png"
           color="indigo"
           imagePosition="right"
-          nextColor="cyan"
+          
         />
 
         {/* Workshop 6 */}
@@ -104,7 +102,7 @@ export default function Home() {
           image="/images/sinti-roma.png"
           color="cyan"
           imagePosition="left"
-          nextColor="fuchsia"
+          
         />
 
         {/* Workshop 7 */}
@@ -115,10 +113,10 @@ export default function Home() {
           description={
             "Im letzten Workshop der Workshopreihe werden die Gefahren und die Tragweite von Hate Speech in den sozialen Medien, insbesondere TikTok, vermittelt. Zunächst werden sowohl Funktionsweisen und Mechanismen von Social Media als auch deren psychische Auswirkungen besprochen. Im weiteren Verlauf des Workshops wird das Vorgehen auf Social Media menschenfeindlicher Gruppen und Personen anhand des Beispiels von rechten Populist:innen und religiös begründeten Fundamentalist:innen beleuchtet. Die Teilnehmer:innen bekommen damit Instrumente an die Hand, wie Inhalte hinterfragt, Fakten geprüft und Hintergründe wie auch Kompetenzen von Influencer:innen recherchiert werden können, um ein quellenkritisches Denken zu vermitteln."
           }
-          image="/images/social-media.jpg"
+          image="/images/social-media.png"
           color="amber"
           imagePosition="right"
-          nextColor="purple"
+          
         />
 
         {/* Kontakt */}

@@ -98,7 +98,7 @@ export function WorkshopSection({
             className={`relative overflow-hidden rounded-2xl shadow-2xl bg-gradient-to-br ${theme.gradient} backdrop-blur-sm border border-white/30`}
             style={{ 
               boxShadow: `0 15px 35px -5px ${theme.light}90, 0 5px 15px rgba(0, 0, 0, 0.05)`,
-              minHeight: "550px" // Explicit minimum height to ensure tallness
+              minHeight: "605px" // Increased height by approximately 10%
             }}
           >
             {/* Enhanced decorative shapes */}
@@ -106,7 +106,7 @@ export function WorkshopSection({
             <div className="absolute -left-20 -bottom-20 w-48 h-48 rounded-full opacity-20" style={{ backgroundColor: theme.medium }}></div>
             <div className="absolute top-1/2 left-1/3 w-24 h-24 rounded-full opacity-10" style={{ backgroundColor: theme.dark }}></div>
             
-            <div className={`flex flex-col ${imagePosition === "left" ? "lg:flex-row" : "lg:flex-row-reverse"} lg:min-h-[550px]`}>
+            <div className={`flex flex-col ${imagePosition === "left" ? "lg:flex-row" : "lg:flex-row-reverse"} lg:min-h-[605px]`}>
               {/* Content area with significantly increased padding and space */}
               <div className="w-full lg:w-1/2 p-10 lg:p-20 flex flex-col justify-center">
                 <h2 
@@ -129,7 +129,7 @@ export function WorkshopSection({
                       src={image}
                       alt={title}
                       fill
-                      className="object-fit lg:object-cover"
+                      className="object-contain"
                       sizes="(max-width: 768px) 100vw, 50vw"
                       priority
                     />
