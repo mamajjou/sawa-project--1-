@@ -1,4 +1,4 @@
-<file name=0 path=/Users/mamajjou/Downloads/sawa-project (1)/app/globals.css>@tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -65,4 +65,3 @@ section {
 .bg-gradient-to-t {
   transition: background-color 0.5s ease;
 }
-</file>
