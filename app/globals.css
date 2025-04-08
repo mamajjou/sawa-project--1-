@@ -1,4 +1,4 @@
-@tailwind base;
+<file name=0 path=/Users/mamajjou/Downloads/sawa-project (1)/app/globals.css>@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -11,7 +11,7 @@ body {
 }
 
 .prose a {
-  @apply text-purple-600 hover:text-purple-700 transition-colors;
+  @apply text-highlight hover:text-highlight transition-colors;
 }
 
 .prose strong {
@@ -65,4 +65,4 @@ section {
 .bg-gradient-to-t {
   transition: background-color 0.5s ease;
 }
-
+</file>

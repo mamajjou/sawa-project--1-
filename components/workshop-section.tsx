@@ -24,7 +24,7 @@ export function WorkshopSection({
     purple: {
       light: "#f3e8ff",
       medium: "#d8b4fe", 
-      dark: "#7c3aed",
+      dark: "#0D1237", // Changed from #7c3aed to your new color
       gradient: "from-purple-50 to-purple-100"
     },
     teal: {
@@ -62,6 +62,12 @@ export function WorkshopSection({
       medium: "#f0abfc", 
       dark: "#c026d3",
       gradient: "from-fuchsia-50 to-fuchsia-100"
+    },
+    blue: {
+      light: "#F3EAD3",     
+      medium: "#F4D24B",    
+      dark: "#1E2643",      
+      gradient: "from-[#64BDE1] to-[#C3ECF7]"
     }
   }
 
